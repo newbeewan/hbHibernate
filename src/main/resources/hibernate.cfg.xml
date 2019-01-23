@@ -18,9 +18,9 @@
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<!-- Déclaration des mappings des Entités -->
-		<mapping class="com.ib.data.discriminant.Coach"/>
-		<mapping class="com.ib.data.discriminant.Personne"/>
-		<mapping class="com.ib.data.discriminant.Player"/>
+		<mapping class="com.ib.data.soustable.Coach"/>
+		<mapping class="com.ib.data.soustable.Personne"/>
+		<mapping class="com.ib.data.soustable.Player"/>
 		
 		
 	</session-factory>
